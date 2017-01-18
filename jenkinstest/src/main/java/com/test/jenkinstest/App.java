@@ -13,4 +13,8 @@ public class App
     private static int fetchValue(){
     	return 10;
     }
+    
+    public int atcualSum(){
+    	return sum;
+    }
 }

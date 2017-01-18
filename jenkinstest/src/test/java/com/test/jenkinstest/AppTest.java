@@ -17,6 +17,7 @@ public class AppTest extends TestCase {
 
 
 	public void testApp() {
-		assertEquals(App.sum, 20);
+		App app = new App();
+		assertEquals(app.atcualSum(), 20);
 	}
 }
