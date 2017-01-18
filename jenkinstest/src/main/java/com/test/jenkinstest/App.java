@@ -1,13 +1,16 @@
 package com.test.jenkinstest;
 
-/**
- * Hello world!
- *
- */
 public class App 
 {
+	static int sum;
+	
     public static void main( String[] args )
     {
-        System.out.println( "Hello World!" );
+    	sum = fetchValue()+fetchValue();
+    	System.out.println(sum);
+    }
+    
+    private static int fetchValue(){
+    	return 10;
     }
 }
