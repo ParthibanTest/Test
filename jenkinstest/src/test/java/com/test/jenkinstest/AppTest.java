@@ -17,6 +17,6 @@ public class AppTest extends TestCase {
 
 
 	public void testApp() {
-		assertEquals(App.fetchValue(), 20);
+		assertEquals(App.fetchValue(), 10);
 	}
 }
