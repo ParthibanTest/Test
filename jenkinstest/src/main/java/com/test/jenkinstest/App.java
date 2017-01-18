@@ -2,19 +2,16 @@ package com.test.jenkinstest;
 
 public class App 
 {
-	static int sum;
-	
-    public static void main( String[] args )
+
+	public static void main( String[] args )
     {
+    	int sum;
     	sum = fetchValue()+fetchValue();
     	System.out.println(sum);
     }
     
-    private static int fetchValue(){
+    public static int fetchValue(){
     	return 10;
     }
     
-    public int atcualSum(){
-    	return sum;
-    }
 }
