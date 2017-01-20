@@ -59,7 +59,7 @@
 								<a href="#"><img src="<c:url value="/resources/images/pic03.jpg" />" alt="" /></a>
 								<h3>Advantage:</h3>
 							</header>
-							<p>FMicroGenesis has certifications and expertise on IBM Websphere, IBM DB2, IBM ECM, IBM Lotus, IBM TSM and KOFAX. </p>
+							<p>MicroGenesis has certifications and expertise on IBM Websphere, IBM DB2, IBM ECM, IBM Lotus, IBM TSM and KOFAX. </p>
 							<ul class="actions">
 								<li><a href="#" class="button">More</a></li>
 							</ul>
